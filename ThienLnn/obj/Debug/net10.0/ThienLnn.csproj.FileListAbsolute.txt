@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\bin\Debug\net10.0\ThienLnn.exe
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\bin\Debug\net10.0\ThienLnn.deps.json
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\bin\Debug\net10.0\ThienLnn.runtimeconfig.json
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\bin\Debug\net10.0\ThienLnn.dll
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\bin\Debug\net10.0\ThienLnn.pdb
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\ThienLnn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\ThienLnn.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\ThienLnn.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\ThienLnn.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\ThienLnn.dll
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\refint\ThienLnn.dll
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\ThienLnn.pdb
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\ThienLnn.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C#\QuanLyKho2\ThienLnn\obj\Debug\net10.0\ref\ThienLnn.dll
