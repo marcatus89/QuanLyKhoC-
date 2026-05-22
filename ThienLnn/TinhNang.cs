@@ -69,13 +69,20 @@ class TinhNang
             }
             int sl = NhapSo("Nhap vao so luong");
             sp.SoLuong += sl;
-            
+            lichSuNhap.Add(new LichSuNhap
+            {
+                MaSP = sp.MaSP??"",
+                TenSP=sp.TenSP??"",
+                SoLuongNhap = sl,
+                GiaNhap = sp.GiaNhap
+
+            });
             
             System.Console.WriteLine($"Da nhap san pham {sp.TenSP},so luong hien tai {sp.SoLuong}");
 
         }
     }
-    public static void XuatHang(List<SanPham> ds)
+    public static void XuatHang(List<SanPham> ds,List<LichSuXuat> lichSuXuat)
     {
         while (true)
         {
@@ -94,6 +101,14 @@ class TinhNang
                 continue;
             }
             sp.SoLuong -= sl;
+            lichSuXuat.Add(new LichSuXuat
+            {
+                MaSP = sp.MaSP??"",
+                TenSP=sp.TenSP??"",
+                SoLuongXuat = sl,
+                GiaBan = sp.GiaBan
+
+            });
             System.Console.WriteLine($"Da xuat san pham thanh cong {sp.TenSP},so luong hien tai {sp.SoLuong}");
         }
     }
@@ -160,7 +175,6 @@ class TinhNang
         }
         ds.ForEach(sp => System.Console.WriteLine($"Ma san pham:{sp.MaSP}- Ten san pham: {sp.TenSP}-So Luong:{sp.SoLuong}") );
     }
-    //1.Cập nhật thông tin sản phẩm (tên, giá, mô tả...)
 
     //2.Tìm kiếm sản phẩm theo tên (tìm gần đúng)
     public static void TimKiemTheoTen(List<SanPham> ds)
